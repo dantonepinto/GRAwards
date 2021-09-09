@@ -3,11 +3,11 @@
 GRAwards é uma aplicação Java responsável por manter todos os filmes do Golden Raspberry Awards.
 
 
-A aplicação utiliza H2 Database em memória, hibernate para persistência e foi toda anotada para ser executada em um container EJB. No entando, para fins didáticos, utilizei um servidor HTTP simples e emulei o funcionamento do EJB de forma bem rudimentar.
+A aplicação utiliza H2 Database em memória, hibernate para persistência e foi toda anotada para ser executada em um container EJB. No entanto, para fins didáticos, utilizei um servidor HTTP simples e emulei o funcionamento do EJB de forma bem rudimentar.
 
-Criei alguns índices para otimização da consulta que retorna o maior e menor intervalo entre prêmios consecutivos.
+Criei alguns índices para otimização das consultas que retornam o maior e o menor intervalo entre prêmios consecutivos.
 
-Os nomes de produtores e de estudios contidos nas células, foram separados em cada virgula e cada expressão " and ". Não está sendo tratado qualquer outro padrão de separação de nomes.
+Os nomes de produtores e de estúdios contidos nas células, foram separados em cada vírgula e cada expressão " and ". Não está sendo tratado qualquer outro padrão de separação de nomes.
 
 ## Instalação
 
@@ -25,7 +25,7 @@ mvn test
 
 ## Inicialização
 
-Após a instalação, execute comando a seguir para iniciar a aplicação.
+Após a instalação, execute o comando a seguir para iniciar a aplicação.
 
 ```bash
 mvn exec:java -Dexec.args="8080"
